@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #24204a26;
+ }
+
+ header {
+            text-align: center;
+           
+ }
+
+ section {
+            margin-bottom: 20px;
+ }
+
+ 
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #080808;
+  }
+ h3 {
+    padding: 0;
+    width: 300px;
+    margin: 50px auto; /* Margen superior e inferior de 50px, 0 a los lados */
+    padding: 20px;
+    
+  }
+  
+
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            color: #333;
+        }
+ 
+        ul {
+            list-style-type: none;
+            padding: 0;
+            width: 300px;
+            margin: 50px 0; /* Margen superior e inferior de 50px, 0 a los lados */
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ol{
+            list-style-type: none;
+            padding: 0;
+            width: 300px;
+            margin: 50px 0; /* Margen superior e inferior de 50px, 0 a los lados */
+            padding: 20px;
+           
+            background-color: rgba(255, 255, 255, 0.7); /* Color blanco con 70% de opacidad */
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+           
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+        .caja {
+            width: 300px;
+            margin: 10px auto;
+            padding: 50px;
+            background-color: #8f5a5a;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .cajaizquierda {
+            width: 300px;
+            margin: 50px 0; /* Margen superior e inferior de 50px, 0 a los lados */
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        p.inset {border-style: inset;
+            background-color: rgba(255, 255, 255, 0.7); /* Color blanco con 70% de opacidad */
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
